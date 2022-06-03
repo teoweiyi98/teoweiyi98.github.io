@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Teo Wei Yi Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Teo Wei Yi<br />
+						Portfolio<br/>
+					</h1>
+						<p style ='color: white'>Your attitide determines your altitude.</p>
+					</div>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+							<li><a href="cv.html">CV</a></li>
+							<li><a href="course.html">Courses</a></li>
+							<li><a href="pubs.html">Publication</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">Projects</span>
+									<p>This page showcases the projects I have taken in data science and bioinformatics, throughout my research journey and in my own free time. </p>
+									<p>I am able to code in: python, R and bash.</p>
+									<!-- <p style="font-size:10px; ">Note: Results obtained using the various bioinformatics methods were (to be) published in scientific journals. The data used below are publicly available data, not the actual data used in these publications.</p> -->
+								</header>
+								<div class="dropdown">
+									<button onclick="myFunction()" class="dropbtn">Filter Projects &#9660;</button>
+									<div id="myDropdown" class="dropdown-content">
+									  <a href="index.html">All</a>
+									  <a href="ds.html">Data Science</a>
+									  <a href="bioinfo.html">Bioinformatics</a>
+									</div>
+								  </div>
+							</article>
+							
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">Bioinformatics</span>
+										<h2><span>Processing <br />RNA-Seq Data</span></h2>
+									</header>
+									<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+									<p>The quality of RNA-Seq data is evaluated by <i>FASTQC</i>, followed by cleaning with <i>prinseq</i> and <i>trimmomatic</i>. The cleaned sequences are then indexed and quantified using <i>salmon</i> in bash.</p>
+									<ul class="actions special">
+										<li><span class="button">Coming Soon</span></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">Bioinformatics</span>
+										<h2><span>Differential Gene <br />Expression</span></h2>
+									</header>
+									<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
+									<p>Upon quantifying the gene expression, the next step is to test for genes that are significantly dysregulated in diseased samples, compared to healthy ones. <i>DESeq2 R package</i> is used for this analysis.</p>
+									<ul class="actions special">
+										<li><span class="button">Coming Soon</span></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">Bioinformatics</span>
+										<h2><span>Genome Wide <br />
+											Association Studies</span></h2>
+									</header>
+									<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+									<p>Genome Wide Association Studies (GWAS) investigates the association between disease status and single nucleotide polymorphisms (SNPs). SNPs are defined as differences in a single position of a DNA sequence. The analysis is performed using <i>plinkv1.90</i> in bash.</p>
+									<ul class="actions special">
+										<li><span class="button">Coming Soon</span></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">Bioinformatics</span>
+										<h2><span href="#">Mendelian <br />
+											Randomization</span></h2>
+									</header>
+									<span class="image fit"><img src="images/pic05.jpg" alt="" /></span>
+									<p>Observational studies are fraught with issues like confounders and reverse causality. Mendelian randomization is a kind of instrumental variable analysis that uses genetic variants as instruments to infer causality. The analysis is performed by <i>plinkv1.90</i> in bash and <i>MendelianRandomization R package</i>.</p>
+									<ul class="actions special">
+										<li><span class="button">Coming Soon</span></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">Bioinformatics</span>
+										<h2><span>Gene enrichment<br />
+										analyses</span></h2>
+									</header>
+									<span class="image fit"><img src="images/pic06.jpg" alt="" /></span>
+									<p>In differential gene analyses, we often end up with thousands of significant genes. To make sense of this, we perform gene enrichment analyses to find what are the biological processes it is enriched in.</p>
+									<ul class="actions special">
+										<li><span class="button">Coming Soon</span></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">Bioinformatics</span>
+										<h2><span>Weighted gene<br />
+										co-expression network analyses</span></h2>
+									</header>
+									<span class="image fit"><img src="images/pic07.jpg" alt="" /></span>
+									<p>Making use of the correlation between thousands of genes, the correlation matrix is transformed into an adjacency matrix and subsequently into a dissimilarity matrix. Hierarchical clustering is performed to obtain distinct groups of genes.</p>
+									<ul class="actions special">
+										<li><span class="button">Coming Soon</span></li>
+									</ul>
+								</article>
+							</section>
+
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+								</div>
+							</footer>
+
+					</div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
